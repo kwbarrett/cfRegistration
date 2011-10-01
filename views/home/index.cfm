@@ -1,4 +1,8 @@
-﻿<table cellspacing="0" id="schedule"> 
+﻿<cfoutput>
+	<p>#linkTo(text="Calendar View")#</p>
+</cfoutput>
+
+<table cellspacing="0" id="schedule"> 
 	<tr>
 		<th>Date</th>
 		<th>Time</th>
@@ -21,9 +25,12 @@
 					
 				</td>
 				<td align="center">
-					<!--- TODO: Placeholder for current attendees calculated property. --->
+					<!--- TODO: Placeholder for current attendees calculated property.   --->
 				</td>
 			</tr>
 		</cfoutput>
 	</cfoutput>
 </table>
+<cfoutput>
+	<p>#linkTo(text="Update Your Info")#</p>
+</cfoutput>
