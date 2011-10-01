@@ -19,7 +19,7 @@ body {
 	}
 #header {
 	height: 60px;
-	background: #a80000 url(images/header_bg.png) repeat-x top;
+	background: #a80000 url(header_bg.png) repeat-x top;
 	margin: 0;
 	}
 #header h1 {
