@@ -1,14 +1,24 @@
-<!DOCTYPE html>
-<html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
 	<title>ColdFusion on Wheels</title>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<meta name="robots" content="noindex,nofollow" />
 	<style>
-	body
+	*
 	{
 		padding: 0;
 		margin: 0;
+	}
+
+	body
+	{
+		text-align: center;
+		font-family: "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+		line-height: 1.5em;
+		font-size: 14px;
+		color: #333;
 		background: #ddd;
 	}
 
@@ -16,7 +26,7 @@
 	{
 		margin: auto;
 		text-align: left;
-		width: 960px;
+		width: 698px;
 		background: #fff;
 		border-left: 3px solid #999;
 		border-right: 3px solid #999;
@@ -27,13 +37,9 @@
 	{
 		background: #fff;
 		padding: 15px;
-		font-family: "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
-		line-height: 1.5em;
-		font-size: 14px;
-		color: #333;
 	}
 
-	#content h1
+	h1
 	{
 		font-size: 24px;
 		font-weight: bold;
@@ -41,19 +47,19 @@
 		margin: 10px 0 5px 0;
 	}
 
-	#content h2
+	h2
 	{
 		font-size: 16px;
 		font-weight: bold;
 		color: #B00701;
 	}
 
-	#content p
+	p
 	{
 		margin-bottom: 15px;
 	}
 
-	#content p.small
+	p.small
 	{
 		font-size: 11px;
 	}
@@ -72,40 +78,38 @@
 		text-decoration: none;
 	}
 
-	#content ul, #content ol
+	#content ul
 	{
 		margin: 10px 0 15px 25px;
-		padding: 0;
 	}
 
-	#content ul li, #content ol li
+	#content ul li
 	{
 		padding-bottom: 0;
-		
 	}
 
-	#content img
+	img
 	{
 		border: none;
 	}
 
-	#content pre
+	pre
 	{
-		border: 1px solid #a6a2a2;
-		overflow-x: auto;
-		width: 95%;
-		padding: 15px;
-		margin-bottom: 15px;
-		background: #ffffe0;
+	  border: 1px solid #a6a2a2;
+	  overflow-x: auto;
+	  width: 638px;
+	  padding: 15px;
+	  margin-bottom: 15px;
+	  background: #ffffe0;
 	}
 
-	#content code
+	code
 	{
 		color: #000;
 		font-family: Courier;
 	}
 
-	#content tt
+	tt
 	{
 		font-family: Courier;
 		font-size: 12px;
@@ -114,7 +118,6 @@
 		padding: 1px 3px;
 		border: 1px solid #ededed;
 	}
-	
 	#logo
 	{
 		float: right;
@@ -123,19 +126,19 @@
 		text-transform: uppercase;
 		width: 75px;
 	}
-
+	
 	#logo a
 	{
 		color: #fff;
 		display: block;
 		text-decoration: none;
 	}
-
+	
 	#logo #cf a:first-letter, #logo #wheels a:first-letter
 	{
 		font-size: 125%;
 	}
-
+	
 	#logo #cf a
 	{
 		background: #900;
@@ -144,7 +147,7 @@
 		padding: 18px 0 16px 0;
 		text-align: center;
 	}
-
+	
 	#logo #wheels a
 	{
 		background: #333;
