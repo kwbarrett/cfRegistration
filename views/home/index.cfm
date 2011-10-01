@@ -21,7 +21,7 @@
 					
 				</td>
 				<td align="center">
-					
+					<!--- TODO: Placeholder for current attendees calculated property. --->
 				</td>
 			</tr>
 		</cfoutput>
