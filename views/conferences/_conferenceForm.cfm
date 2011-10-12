@@ -4,5 +4,4 @@
 	#textField(objectName="conference", label="Contact Name", property="contactName", size="60", maxlentgh="250")#
 	#textField(objectName="conference", label="Phone", property="contactPhone", size="15", maxlentgh="50")#
 	<br/><br/>
-	#submitTag(value="Add Event")#
 </cfoutput>

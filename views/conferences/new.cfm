@@ -9,5 +9,6 @@
 <cfoutput>
 	#startFormTag(action="create")#
 	#includePartial("conferenceForm")#
+	#submitTag(value="Add Event")#
 	#endFormTag()#
 </cfoutput>
